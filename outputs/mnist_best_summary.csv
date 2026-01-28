@@ -1,0 +1,7 @@
+model,best_mnist_test_accuracy
+sigmoid,0.9685
+tanh,0.9763
+relu_only,0.9807
+sigmoid_tanh_mix,0.9755
+tanh_relu_mix,0.9769
+sigmoid_tanh_relu_mix,0.9768
