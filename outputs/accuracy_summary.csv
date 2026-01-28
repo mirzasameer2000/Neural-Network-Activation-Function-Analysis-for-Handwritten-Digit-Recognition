@@ -1,0 +1,7 @@
+model,handwritten,online,paint_whitebg,word_blackbg,word_whitebg
+relu_only,0.5484,0.6522,0.9643,0.8,0.8
+sigmoid,0.5,0.6087,0.8929,0.7,0.7
+sigmoid_tanh_mix,0.5161,0.6812,0.9643,0.9,0.9
+sigmoid_tanh_relu_mix,0.5323,0.6232,0.9643,0.7,0.7
+tanh,0.5323,0.6522,0.9643,0.7,0.7
+tanh_relu_mix,0.5484,0.6377,0.9643,0.8,0.8
