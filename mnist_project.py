@@ -1,4 +1,3 @@
-from pyexpat import model
 import os, glob, random 
 import numpy as np
 from scipy import ndimage
@@ -371,11 +370,18 @@ def main():
     # =========================
     # ADDITIONAL EXPERIMENTS
     # =========================
+
     extra_experiments = {
         "relu_only": {"activation": "relu", "activations": None},
-        "sigmoid_tanh_mix": {"activation": "sigmoid", "activations": ["sigmoid","sigmoid","sigmoid","tanh","tanh","tanh"]},
-        "tanh_relu_mix": {"activation": "tanh", "activations": ["tanh","tanh","tanh","relu","relu","relu"]},
-        "sigmoid_tanh_relu_mix": {"activation": "sigmoid", "activations": ["tanh","relu","sigmoid","tanh","relu","sigmoid"]},
+
+        "sigmoid_tanh_mix": {"activation": "sigmoid", 
+                             "activations": ["sigmoid","sigmoid","sigmoid","tanh","tanh","tanh"]},
+
+        "tanh_relu_mix": {"activation": "tanh", 
+                          "activations": ["tanh","tanh","tanh","relu","relu","relu"]},
+
+        "sigmoid_tanh_relu_mix": {"activation": "sigmoid", 
+                                  "activations": ["tanh","relu","sigmoid","tanh","relu","sigmoid"]},
     }
 
     extra_models = {}
