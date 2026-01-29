@@ -1,2 +1,6 @@
 .venv
 data/
+
+~$*.doc*
+*.tmp
+~WRL*.tmp
